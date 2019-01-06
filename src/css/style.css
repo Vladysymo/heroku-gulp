@@ -1,0 +1,83 @@
+/*FONTS.CSS*/
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../fonts/OpenSans-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../fonts/OpenSans-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../fonts/OpenSans-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+/*RESET.CSS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', 'Arial', 'Tahoma', sans-serif;
+  font-size: 16px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*General*/
+/*Preloader*/
+/*Header*/
+/*Main*/
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 100vh;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+body h1 {
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 7px;
+  color: #202124;
+  user-select: none;
+  transition: all 0.3s;
+}
+
+body.dark {
+  background-color: #202124;
+}
+
+body.dark h1 {
+  color: #fff;
+}
+
+/*Footer*/

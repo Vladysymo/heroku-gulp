@@ -1,0 +1,10 @@
+//Center insight elements with flexbox css
+=center($fxd: row)
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: $fxd
+
+//Transition
+=trs($time: .3, $prop: all)
+    transition: #{$prop} #{$time}s 

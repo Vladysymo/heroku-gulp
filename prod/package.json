@@ -1,0 +1,13 @@
+{
+  "name": "node.js_project",
+  "version": "1.0.0",
+  "description": "NODE.JS HEROKU PROJECT",
+  "main": "app.js",
+  "author": "Vladysymo",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
+}
