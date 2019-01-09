@@ -5,12 +5,20 @@
 
 
 
-@import 'layout/general'
-
-@import 'layout/preloader'
-
-@import 'layout/header'
-
-@import 'pages/main'
-
-@import 'layout/footer'
+/*Main*/
+body
+    +center
+    height: 100vh
+    cursor: pointer
+    +trs
+    h1
+        font-size: 50px
+        font-weight: 300
+        letter-spacing: 7px
+        color: #202124
+        user-select: none
+        +trs
+    &.dark
+        background-color: #202124
+        h1 
+            color: #fff
