@@ -16,12 +16,12 @@ It contains:
 * Socket.io
 
 Before starting to develop, install node modules
-`npm i` in main directory and
-`npm i` in /prod directory
+* `npm i` in main directory and
+* `npm i` in /prod directory
 
 Gulp contains 2 main tasks
-`gulp [default]` - runs gulp watch with browser sync
-`gulp build` - runs minify and optimize all files to ready to develop backend
+* `gulp [default]` - runs gulp watch with browser sync
+* `gulp build` - runs minify and optimize all files to ready to develop backend
 
 And all ready to deploy
 
@@ -41,11 +41,11 @@ And all ready to deploy
 * Socket.io
 
 До того, как начинать разработку, установите node modules
-`npm i` в главной директории и
-`npm i` в директории /prod
+* `npm i` в главной директории и
+* `npm i` в директории /prod
 
 Gulp содержит 2 главных таска
-`gulp [default]` - запускает gulp watch вместе с browser sync
-`gulp build` - запускает минификацию и оптимизицию для всех файлов и вы готовы к разработке бекенда
+* `gulp [default]` - запускает gulp watch вместе с browser sync
+* `gulp build` - запускает минификацию и оптимизицию для всех файлов и вы готовы к разработке бекенда
 
 Все готово к загрузке на продакшн
