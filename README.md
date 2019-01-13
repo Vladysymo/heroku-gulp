@@ -7,7 +7,7 @@ This is template for development for JavaScript Fullstack Developers.
 It contains:
 #### for Frontend
 * Gulp 
-* Sass 3 in 1 template (modular)
+* Sass
 * 5 species Open Sans font (300, 400, 600, 700, 800)
 * Bootstrap 4 grid
 * jQuery
@@ -32,7 +32,7 @@ And all ready to deploy
 Он в себе содержит:
 #### для Фронтенда
 * Gulp
-* Sass шаблон 3 в 1 (модульный)
+* Sass
 * 5 начертаний шрифта Open Sans (300, 400, 600, 700, 800)
 * Bootstrap 4 сетка
 * jQuery
@@ -45,7 +45,7 @@ And all ready to deploy
 * `npm i` в директории /prod
 
 Gulp содержит 2 главных таска
-* `gulp [default]` - запускает gulp watch вместе с browser sync
+* `gulp` - запускает gulp watch вместе с browser sync
 * `gulp build` - запускает минификацию и оптимизицию для всех файлов и вы готовы к разработке бекенда
 
 Все готово к загрузке на продакшн
