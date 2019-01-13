@@ -3,7 +3,8 @@
   "version": "2.0.0",
   "main": "gulpfile.js",
   "scripts": {
-    "build": "gulp build",
+    "buildf": "gulp buildf",
+    "buildb": "gulp buildb",
     "dev": "gulp"
   },
   "author": "",
